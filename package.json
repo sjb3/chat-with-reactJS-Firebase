@@ -1,0 +1,31 @@
+{
+  "name": "chat-with-reactJS-Firebase",
+  "version": "1.0.0",
+  "description": "This is adapted from Velocity360 tut",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjb3/chat-with-reactJS-Firebase.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjb3/chat-with-reactJS-Firebase/issues"
+  },
+  "homepage": "https://github.com/sjb3/chat-with-reactJS-Firebase#readme",
+  "dependencies": {
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^1.14.0"
+  }
+}
