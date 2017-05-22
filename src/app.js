@@ -1,28 +1,15 @@
 'use strict';
 
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
 
-// export const App = () => (
-//   render() {
-//     <div>
-//       <h1>react crap</h1>
-//     </div>
-//     document.getElementById('app')
-//   }
-// )
+import { ChatRoom } from './Components/ChatRoom';
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        React Crap!
-      </div>
-    )
-  }
-}
+window.React = React;
 
-ReactDOM.render(
-  <App />,
+render (
+  <div>
+    <ChatRoom />
+  </div>,
   document.getElementById('app')
 )
